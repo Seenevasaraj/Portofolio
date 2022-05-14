@@ -63,14 +63,18 @@
 
 /*------------------------------------------MEDIA QUERY(SMALL DEVICE)--------------------------------------------------- */
 @media screen and (max-width:650px) {
-
+    
+   .about-content{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+   }
    .lottie-img{
        display: none;
 
    }
    .about-cards{
-       grid-template-columns: 1fr;
-       place-items: center;
+       grid-template-columns: 1fr;    
              
    }
 
